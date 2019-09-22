@@ -1,17 +1,18 @@
-def my_hash (hash)
-
-
-  
+def my_hash (my_hash)
+my_hash = {
+  "name" => "Sarah",
+  "age" => 27
+  "hometown" => "Minnesota"
+}
 end
 
 
 def shipping_manifest
-  # set a variable called `the_manifest`, equal to a hash
-  # fill that hash with key/value pairs that describe the following information: 
-  # We have 5 whale bone corsets, 2 porcelain vases and 3 oil paintings 
-
-
-end
+  the_manifest = {
+    "whale bone corsets" => 5
+    "porcelain vasses" => 2
+    "oil paintings" => 3
+  end
 
 def retrieval
   shipping_manifest = {
@@ -20,7 +21,7 @@ def retrieval
                   "oil paintings" => 3
                  }
 
-  # Look up the value of the "oil paintings" key in the shipping_manifest hash below
+ return "oil paintings"
 
 end
 
