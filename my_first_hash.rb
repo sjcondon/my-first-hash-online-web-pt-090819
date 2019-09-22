@@ -1,7 +1,7 @@
 def my_hash (my_hash)
 my_hash = {
   "name" => "Sarah",
-  "age" => 27
+  "age" => 27,
   "hometown" => "Minnesota"
 }
 end
@@ -9,8 +9,8 @@ end
 
 def shipping_manifest
   the_manifest = {
-    "whale bone corsets" => 5
-    "porcelain vasses" => 2
+    "whale bone corsets" => 5,
+    "porcelain vasses" => 2,
     "oil paintings" => 3
   end
 
@@ -31,8 +31,8 @@ def adding
                   "porcelain vases" => 2, 
                   "oil paintings" => 3
                  }
-  shipping_manifest["muskets"] => 2
-  shipping_manifest["gun powder"] => 4
+  shipping_manifest["muskets"] = 2
+  shipping_manifest["gun powder"] = 4
   
 
 
