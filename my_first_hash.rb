@@ -6,7 +6,6 @@ my_hash = {
 }
 end
 
-
 def shipping_manifest
   the_manifest = {
     "whale bone corsets" => 5,
